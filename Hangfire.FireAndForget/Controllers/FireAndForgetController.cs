@@ -14,7 +14,7 @@ namespace Hangfire.FireAndForget.Controllers
         {
             for (int i = 0; i < 10; i++)
             {
-                FireAndForgetJobs.SendMailJob(new MailMessageDto { Body = "Hangfire", From = "oguzhan.eksiii@gmail.com", Subject = "Hangfire Test", To = "oguzhan.eksiii@gmail.com" });
+                FireAndForgetJobs.SendMailJob(new MailMessageDto { Body = "Hangfire", From = "test@gmail.com", Subject = "Hangfire Test", To = "test@gmail.com" });
             }
             return Redirect("Hangfire");
         }

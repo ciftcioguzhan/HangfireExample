@@ -22,10 +22,8 @@ namespace Hangfire.FireAndForget.Service
                     mail.Subject = mailMessageDtol.Subject;
                     mail.Body = mailMessageDtol.Body;
 
-                    //SmtpServer.Port = 587;
-                    SmtpServer.Credentials = new System.Net.NetworkCredential("oguzhan.eksiii@gmail.com", "Oguzhan.3455");
+                    SmtpServer.Credentials = new System.Net.NetworkCredential("mail adresiniz", "şifreniz");
                     SmtpServer.EnableSsl = true;
-                    //SmtpServer.UseDefaultCredentials = false;
 
                     SmtpServer.Send(mail);
                 }
