@@ -27,5 +27,5 @@ Bu işlemden sonra Hangfire kütüphanesini servis olarak uygulamaya dahil etmek
         }
 ```
 
-
+Mail adresi ayarlarınızı "MailService.cs" içerisinde yapabilirsiniz.
 
