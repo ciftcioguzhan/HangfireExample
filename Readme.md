@@ -15,8 +15,6 @@ Bu işlemden sonra Hangfire kütüphanesini servis olarak uygulamaya dahil etmek
 ```csharp
    public void ConfigureServices(IServiceCollection services)
         {
-           
-
             services.AddHangfire(x => x.UseSqlServerStorage(Configuration.GetConnectionString("HangfireConnection")));
             services.AddHangfireServer();
         } 
@@ -25,9 +23,7 @@ Bu işlemden sonra Hangfire kütüphanesini servis olarak uygulamaya dahil etmek
 ```csharp
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
             app.UseHangfireDashboard();
-
         }
 ```
 
