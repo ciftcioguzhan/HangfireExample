@@ -2,10 +2,10 @@
 Hangfire, arkaplanda çalışacak olan bazı işleri yaratıp, yürütmeyi ve yönetmeyi sağlayan açık kaynaklı bir kütüphanedir.
 
 ## *Hangfire Job Türleri*
--Fire And Forget (Ücretsiz); Bir kere ve hemen çalışan job tipidir. İş tanımlanır ve ardından bir kere tetiklenir.
--Delayed (Ücretsiz); Oluşturulduktan belirli bir zaman sonra sadece bir kere çalışır.
--Recurring; Tekrarlanan işler ve belirtilen zaman dilimlerinde çalışan job tipidir.
--Continuations; Birbirleriyle ilişkili işlerin olduğu zaman çalışan job tipidir.
+-Fire And Forget (Ücretsiz); Bir kere ve hemen çalışan job tipidir. İş tanımlanır ve ardından bir kere tetiklenir.<br>
+-Delayed (Ücretsiz); Oluşturulduktan belirli bir zaman sonra sadece bir kere çalışır.<br>
+-Recurring; Tekrarlanan işler ve belirtilen zaman dilimlerinde çalışan job tipidir.<br>
+-Continuations; Birbirleriyle ilişkili işlerin olduğu zaman çalışan job tipidir.<br>
 
 Biz örnekte sadece "Fire And Forget" baz aldık.
 ## *Konfigürasyon Ayarları*
