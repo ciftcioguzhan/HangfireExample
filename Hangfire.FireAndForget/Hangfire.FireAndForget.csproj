@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JobManager\" />
+  </ItemGroup>
+
+</Project>
